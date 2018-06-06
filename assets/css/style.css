@@ -786,3 +786,8 @@ form{
         margin-top: 30px;
     }
 }
+
+#team img {
+    width: 128px;
+    height: 128px;
+}
