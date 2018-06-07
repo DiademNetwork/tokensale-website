@@ -19,7 +19,7 @@
 
         if(web3 != null) {
             if($("div.metamask-button").length > 0) {
-                $("div.metamask-button").addEventListener("click", function() {
+                $("div.metamask-button").on("click", function() {
                    var investor = web3.eth.accounts[0];
 
                    web3.eth.sendTransaction({
