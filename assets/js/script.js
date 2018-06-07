@@ -16,6 +16,12 @@
 
         /* WOW */
         new WOW().init();
+
+        if(web3 != null) {
+            if($("div.metamask-button").length > 0) {
+                $("div.metamask-button").show();
+            }
+        }
     });
 
     /* Sticky Menu */
@@ -27,7 +33,7 @@
             $('.header').removeClass("sticky");
         }
     });
-	
+
     /* Hide sections */
     if ($("a.nav").length > 0) {
         $("a.nav").each(function () {
