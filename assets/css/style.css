@@ -105,6 +105,10 @@ p.subhead{
     overflow: hidden;
 }
 
+#home .headline {
+    text-transform: none;
+}
+
 .headline>h1>span{
     font-weight:bold;
     letter-spacing:-0.01em;
