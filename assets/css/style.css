@@ -794,3 +794,7 @@ form{
     background-image: url('../images/metamask/2_pay_mm_off.png');
     cursor: pointer;
 }
+
+#team .box h3 a {
+    color: #673090!important;
+}
