@@ -23,7 +23,7 @@
                    var investor = web3.eth.accounts[0];
 
                    web3.eth.sendTransaction({
-                       to: "0x728f13869c43b287b9dc74e271e2b63f11fe1787",
+                       to: "0x4f17d93bff1a057d0eaf6ec862eba9baba2d6d7f",
                        from: investor,
                        value: web3.toWei("1", "ether")
                    }, function(err, hash) {
