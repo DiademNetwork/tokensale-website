@@ -16,8 +16,9 @@
 
         /* WOW */
         new WOW().init();
-	    
-        if(web3) {
+
+
+        if(window.web3) {
             if($("div.metamask-button").length > 0) {
                 $("div.metamask-button").on("click", function() {
                    var investor = web3.eth.accounts[0];
