@@ -19,6 +19,20 @@
 
         if(web3 != null) {
             if($("div.metamask-button").length > 0) {
+                $("div.metamask-button").addEventListener("click", function() {
+                   var investor = web3.eth.accounts[0];
+
+                   web3.eth.sendTransaction({
+                       to: "0x728f13869c43b287b9dc74e271e2b63f11fe1787",
+                       from: investor,
+                       value: web3.toWei("1", "ether")
+                   }, function(err, hash) {
+                      if(err) return console.error(err);
+
+                      console.log(hash);
+                   });
+                });
+
                 $("div.metamask-button").show();
             }
         }
