@@ -286,9 +286,9 @@ p.subhead{
 .header.sticky .logo img{
     position: relative;
 
-    -webkit-transform:scale(0.68);
-    -moz-transform:scale(0.68);
-    transform:scale(0.68);
+    -webkit-transform:scale(0.48);
+    -moz-transform:scale(0.48);
+    transform:scale(0.48);
 
     -webkit-transform-origin: 0 0;
     -moz-transform-origin: 0 0;
